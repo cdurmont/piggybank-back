@@ -8,9 +8,9 @@ import io.quarkus.panache.common.Sort;
 import io.smallrye.mutiny.Uni;
 import org.apache.commons.beanutils.BeanUtils;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.ManyToOne;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.ManyToOne;
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.List;

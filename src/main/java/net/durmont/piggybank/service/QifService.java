@@ -8,8 +8,8 @@ import net.durmont.piggybank.model.Account;
 import net.durmont.piggybank.model.Entry;
 import net.durmont.piggybank.model.Transaction;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;

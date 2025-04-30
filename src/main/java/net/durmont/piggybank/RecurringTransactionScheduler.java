@@ -4,8 +4,8 @@ import io.quarkus.logging.Log;
 import io.quarkus.scheduler.Scheduled;
 import net.durmont.piggybank.service.TransactionService;
 
-import javax.inject.Inject;
-import javax.inject.Singleton;
+import jakarta.inject.Inject;
+import jakarta.inject.Singleton;
 
 @Singleton
 public class RecurringTransactionScheduler {

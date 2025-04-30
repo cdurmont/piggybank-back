@@ -7,7 +7,7 @@ import io.smallrye.mutiny.Uni;
 import net.durmont.piggybank.model.Entry;
 import net.durmont.piggybank.model.Instance;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import java.util.List;
 import java.util.Objects;
 

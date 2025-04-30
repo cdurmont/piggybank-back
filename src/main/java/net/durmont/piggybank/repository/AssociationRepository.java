@@ -11,7 +11,7 @@ import net.durmont.piggybank.model.Association;
 import net.durmont.piggybank.model.Instance;
 import org.apache.commons.beanutils.BeanUtils;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.List;

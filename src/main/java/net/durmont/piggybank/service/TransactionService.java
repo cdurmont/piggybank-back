@@ -12,8 +12,8 @@ import net.durmont.piggybank.model.Instance;
 import net.durmont.piggybank.model.Transaction;
 import org.apache.commons.beanutils.BeanUtils;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
 import java.lang.reflect.InvocationTargetException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

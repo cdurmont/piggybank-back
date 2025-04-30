@@ -2,15 +2,15 @@ package net.durmont.piggybank.api.v2;
 
 import io.quarkus.panache.common.Sort;
 import io.smallrye.mutiny.Uni;
+import jakarta.annotation.security.RolesAllowed;
+import jakarta.ws.rs.*;
+import jakarta.ws.rs.core.Response;
 import net.durmont.piggybank.model.Association;
 import net.durmont.piggybank.service.AssociationService;
 import org.jboss.resteasy.reactive.RestPath;
 import org.jboss.resteasy.reactive.RestQuery;
 
-import javax.annotation.security.RolesAllowed;
-import javax.inject.Inject;
-import javax.ws.rs.*;
-import javax.ws.rs.core.Response;
+import jakarta.inject.Inject;
 import java.net.URI;
 import java.util.List;
 

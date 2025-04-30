@@ -3,7 +3,7 @@ package net.durmont.piggybank.model;
 import com.fasterxml.jackson.annotation.JsonView;
 import net.durmont.piggybank.Views;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;

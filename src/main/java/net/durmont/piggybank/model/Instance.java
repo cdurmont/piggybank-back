@@ -7,7 +7,7 @@ import io.quarkus.logging.Log;
 import io.smallrye.mutiny.Uni;
 import org.apache.commons.beanutils.BeanUtils;
 
-import javax.persistence.Entity;
+import jakarta.persistence.Entity;
 import java.lang.reflect.InvocationTargetException;
 
 @Entity

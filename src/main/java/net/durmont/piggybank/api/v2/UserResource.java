@@ -6,10 +6,10 @@ import net.durmont.piggybank.service.UserService;
 import org.jboss.resteasy.reactive.RestPath;
 import org.jboss.resteasy.reactive.RestQuery;
 
-import javax.annotation.security.RolesAllowed;
-import javax.inject.Inject;
-import javax.ws.rs.*;
-import javax.ws.rs.core.Response;
+import jakarta.annotation.security.RolesAllowed;
+import jakarta.inject.Inject;
+import jakarta.ws.rs.*;
+import jakarta.ws.rs.core.Response;
 import java.net.URI;
 import java.util.List;
 
@@ -45,7 +45,7 @@ public class UserResource extends RestResource {
 	public Uni<Response> create(User newUser) {
 
 		return userService.create(newUser)
-			.onItem().ifNotNull().transform(inserted -> Response.created(URI.create("/api-v2/users/" + inserted.id)).build())
+			.onItem().ifNotNull().transform(inserted -> Response.created(URI.create("/api-v2/users/" + inserted.id)).entity(inserted).build())
 			.onItem().ifNull().continueWith(Response.status(Response.Status.PRECONDITION_FAILED).build());
 	}
 

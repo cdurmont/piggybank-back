@@ -8,8 +8,8 @@ import io.quarkus.panache.common.Sort;
 import io.smallrye.mutiny.Uni;
 import org.apache.commons.beanutils.BeanUtils;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.List;

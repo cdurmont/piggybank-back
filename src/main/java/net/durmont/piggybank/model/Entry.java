@@ -7,7 +7,7 @@ import io.quarkus.panache.common.Sort;
 import io.smallrye.mutiny.Uni;
 import org.apache.commons.beanutils.BeanUtils;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.lang.reflect.InvocationTargetException;
 import java.math.BigDecimal;
 import java.time.LocalDate;

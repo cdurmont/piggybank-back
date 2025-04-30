@@ -10,8 +10,8 @@ import net.durmont.piggybank.model.Entry;
 import net.durmont.piggybank.model.Instance;
 import net.durmont.piggybank.model.Stat;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.validation.constraints.NotNull;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.validation.constraints.NotNull;
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Objects;
